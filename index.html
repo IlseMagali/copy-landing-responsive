@@ -87,15 +87,15 @@
           <iframe width="560" height="315" src="https://www.youtube.com/embed/HtXiY2FwcAU" frameborder="0" allowfullscreen>
           </iframe>
         </section>
-      </section>
+       </section>
       <section class="section-fifth">
         <div class="heading">
           <h2>HEADING</h2>
         </div>
         <section class="container-row">
           <form class="container-col" action="index.html" method="post">
-              <input type="text"  value="" placeholder="Nombre completo">
-              <input type="text"  value="" placeholder="Email">
+              <input type="text" placeholder="Name" required>
+              <input  type="email" placeholder="Email Address" pattern="/([a-zA-Z0–9]+)([\_\.\-{1}])?([a-zA-Z0–9]+)\@([a-zA-Z0–9]+)([\.])([a-zA-Z\.]+)/g" title="Ingresa un correo" required/>
               <textarea name="name" rows="8" cols="80" placeholder="Mensaje"></textarea>
               <section class="container-row-button">
                 <input id="buttonForm" type="button" name="Enviar" value="Submit">
@@ -103,7 +103,9 @@
           </form>
         </section>
       </section>
-      </section>
+      <footer>
+        <p>Ilse Keymolen - ❧ - web landing page</p>
+      </footer>
     </section>
   </body>
 </html>
