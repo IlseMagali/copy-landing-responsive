@@ -9,7 +9,6 @@ header {
   display:flex;
   justify-content: center;
   background-color: #CBCCB4;
-  padding:1%;
 }
 
 nav {
@@ -90,9 +89,49 @@ a {
   height: 100px;
 }
 
-.container-fourth {
+/*section-fourth styles*/
+
+.section-fourth {
+  width: 100%;
   background-color: gray;
   color:white;
-  padding: 3%;
+  display:flex;
+  flex-direction: column;
 }
 
+/*section-fifth styles*/
+.section-fifth {
+  width: 100%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+form > input, form > textarea {
+  margin-bottom: 10%;
+  font-size:20px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.container-row-button {
+  width: 100%;
+  display:flex;
+  flex-direction: row;
+  justify-content:flex-end;
+}
+
+#buttonForm {
+  border:none;
+  background-color: gray;
+  color:white;
+  padding:1em;
+  border-radius: 0.5em;
+}
+
+footer {
+  background-color:gray;
+  color:white;
+}
