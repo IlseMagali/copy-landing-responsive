@@ -146,3 +146,20 @@ footer {
   text-align: center;
   padding:1%;
 }
+
+/*breakpoints*/
+
+@media only screen and (max-width:716px) {
+  .general-container {
+    font-size: 2em;
+  }
+  .section-two > p {
+    font-size:20%;
+  }
+}
+
+@media only screen and (max-width:50%) {
+  .general-container {
+    font-size: 1em;
+  }
+}
