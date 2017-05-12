@@ -134,4 +134,6 @@ form > input, form > textarea {
 footer {
   background-color:gray;
   color:white;
+  text-align: center;
+  padding:1%;
 }
